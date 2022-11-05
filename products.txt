@@ -1,0 +1,5 @@
+egg 0.2 100
+tomato 0.13 49
+beetroot 0.15 17
+onion 0.05 32
+carrot 0.06 81
