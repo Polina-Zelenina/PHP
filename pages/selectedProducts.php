@@ -51,7 +51,15 @@
         <ul>
             <?php
                 foreach($_SESSION as $key => $value) {
-                    echo "<li>".$key."</li>";
+                    echo "<li>";
+                        echo "<div>";
+                            echo "<p><b>".$key."</b></p>";
+                            echo "<p>Count: ".$value['count']."</p>";
+                        echo "</div>";
+                        echo '<div class="price-and-select">';
+                            echo "<p>".$value['price']." $</p>";
+                        echo "</div>";
+                    echo "</li>";
                 }
             ?>
         </ul>
